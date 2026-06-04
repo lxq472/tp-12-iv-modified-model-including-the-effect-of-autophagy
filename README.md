@@ -37,13 +37,13 @@ $$\frac{dP}{dt} = \sigma - P - \gamma FP + \nu C$$
 
 We add one new variable **A** (autophagy activity, i.e. autophagic flux / autophagosome formation rate) and modify three equations:
 
-$$\frac{dF}{dt} = \frac{m}{1+P} - \gamma FP \;-\; \delta_A \cdot A \cdot F$$
+$$\frac{dF}{dt} = \frac{m}{1+P} - \gamma FP \-\ \delta_A \cdot A \cdot F$$
 
-$$\frac{dC}{dt} = \gamma FP - \nu C \;-\; \delta_{AC} \cdot A \cdot C$$
+$$\frac{dC}{dt} = \gamma FP - \nu C \-\ \delta_{AC} \cdot A \cdot C$$
 
-$$\frac{dP}{dt} = \sigma - P - \gamma FP + \nu C \;+\; \delta_{AC} \cdot A \cdot C$$
+$$\frac{dP}{dt} = \sigma - P - \gamma FP + \nu C \+\ \delta_{AC} \cdot A \cdot C$$
 
-$$\frac{dA}{dt} = \sigma_A \cdot f(F) \;-\; A/\tau_A$$
+$$\frac{dA}{dt} = \sigma_A \cdot f(F) \-\ A/\tau_A$$
 
 where $f(F)$ depends on the biological scenario:
 
